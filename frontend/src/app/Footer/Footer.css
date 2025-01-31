@@ -1,0 +1,62 @@
+* {
+    width: 100%;
+}
+
+.footer {
+    position: fixed;       
+    bottom: 0;             
+    left: 0;               
+    width: 100%;           
+    background-color: #bcbcbc; 
+    display: flex;          
+    justify-content: space-around;
+    align-items: center;   
+    padding: 10px 0;        
+    z-index: 10;
+    height: 40px;   
+    border-radius: 40px 40px 0px 0px ;     
+}
+
+.footer button {
+    font-size: 16px;        
+    display: flex;     
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    background-color: #bcbcbc;
+
+    
+}
+
+.footer button img {
+    height: 30px; 
+    background-color: #bcbcbc; 
+   
+}
+
+.footer button .QR {
+    height: 100px !important ;
+}
+.QR{
+    
+        width: 100px;            /* Ширина кнопки */
+        height: 100px;           /* Высота кнопки */
+        background-color: white; /* Цвет фона кнопки */
+        border: none;            /* Без бордера */
+        border-radius: 50%;      /* Делаем кнопку круглой */
+        display: flex;
+        justify-content: center; /* Центрируем изображение внутри кнопки */
+        align-items: center;     /* Центрируем изображение внутри кнопки */
+        cursor: pointer;    
+        background-color: #E2AB2D;     /* Курсор на кнопке */
+}
+.circle-container {
+    display: flex;
+    justify-content: center; /* Центрирует кнопку по горизонтали */
+    align-items: center;     /* Центрирует кнопку по вертикали */
+    width: 100px;            /* Ширина круга */
+    height: 100px;           /* Высота круга */
+    background-color: #E2AB2D; /* Цвет фона круга */
+    border-radius: 50%;      /* Делаем круг */
+    margin: 100px auto;       /* Центрируем круг на странице */
+  }

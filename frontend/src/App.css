@@ -12,10 +12,7 @@ html, body {
 .main {
   flex: 1; /* Растягивает контент, чтобы футер всегда был внизу */
 }
-
-.footer {
-  background: #333;
-  color: white;
-  padding: 10px;
-  text-align: center;
+button{
+  cursor: pointer;
+  border: none;
 }
